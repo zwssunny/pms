@@ -41,11 +41,11 @@
 			<artifactId>druid</artifactId>
 			<version>1.1.0</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-spring-boot-web-starter</artifactId>
 			<version>1.4.0</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>

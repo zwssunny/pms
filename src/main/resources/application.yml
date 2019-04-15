@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: sa
+    password: sql2008!@#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#mybatis:#  type-aliases-package: com.jeeplus.modules.**.entity.**
+#  type-aliases-super-type: com.jeeplus.core.persistence.BaseEntity
+#  mapper-locations: classpath*:com/jeeplus/modules/**/*Mapper.xml
+#  config-location: classpath:/mybatis/mybatis-config.xml
+  
